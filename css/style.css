@@ -1,139 +1,141 @@
 /* Reset CSS */
 
 *{
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .titulo{
-    margin-top: 30px;
-    margin-bottom: 10px;
-    
+  margin-top: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  
 }
 
 /* Header logo */
 
 .reciclaje{
-    width: 70px;
-    margin-right: 10px;
-    margin-left: 5px;
+  display: flex;
+  width: 70px;
+  margin-right: 10px;
+  margin-left: 5px;
 }
 
 .row{
-    align-self: flex-start;
+  align-self: flex-start;
 }
 
 #superior{
-    background-color: white;
+  background-color: white;
 }
 
 body{
-    /* background-color:white;
-    display: grid;
-    min-height: 100vh;
-    grid-template-rows: auto 1fr auto; */
-    font-family: 'Arimo', sans-serif;  
+  /* background-color:white;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto; */
+  font-family: 'Arimo', sans-serif;  
 }
 
 /* Img de fondo 
 
 .bg-wrap {
-    position: relative;
-  }
-  
-  .bg-wrap:before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.6;
-    background-image: url(./Imagenes/imgdefondo.png);
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    background-size: cover;
-  }
-  
-  .bg-content {
-    position: relative;
-  } */
+  position: relative;
+}
+
+.bg-wrap:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background-image: url(./Imagenes/imgdefondo.png);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+.bg-content {
+  position: relative;
+} */
 
 
 
 
 /* Logo YPF */
 #logoYPF{
-    width: 100px;
-    text-align: right;
-    margin: 25px;
+  width: 100px;
+  text-align: right;
+  margin: 25px;
 }
 
 .logo{
-    text-align: right;
+  text-align: right;
 }
 
 
 /* Header principal */
 header{
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 10px 0px 10px;
-    
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px 0px 10px;
+  
 }
 
 /* Imagenes */
 .imagen_portada{
-  display: flex;
-  justify-content: center;
-  background-color: #83d370;
+display: flex;
+justify-content: center;
+background-color: #83d370;
 }
 
 /*Texto-en-imagen-principal */
 .texto-imagen{
-  position: absolute;
-  bottom: 105px;
-  left: 19%;
-  transform: translate(-50%, -50%);
-  font-family: Helvetica;
-  font-weight: bold;
-  color: white;
-  font-size: xx-large;
-  background-color: #377938;
+position: absolute;
+bottom: 105px;
+left: 19%;
+transform: translate(-50%, -50%);
+font-family: Helvetica;
+font-weight: bold;
+color: white;
+font-size: xx-large;
+background-color: #377938;
 }
 
 /* .subtitulo-imagen{
-  position: absolute;
-  bottom: -9px;
-  right: 5%;
-  transform: translate(-50%, -50%);
-  font-family: Helvetica;
-  font-weight: bold;
-  color: white;
-  font-size: larger;
+position: absolute;
+bottom: -9px;
+right: 5%;
+transform: translate(-50%, -50%);
+font-family: Helvetica;
+font-weight: bold;
+color: white;
+font-size: larger;
 } */
 
 
- /* Titulos */
+/* Titulos */
 
 
 h1{
-    margin-left: 2px;
-    font-style: normal;
-    margin-top: 7px;
-    font-family: 'Arimo', sans-serif;
+  margin-left: 2px;
+  font-style: normal;
+  margin-top: 7px;
+  font-family: 'Arimo', sans-serif;
 }
 
 
 h2{
-    font-family: 'Merriweather', serif;
-    color: rgb(113, 181, 96);
-    text-underline-offset: 2px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    vertical-align: middle;
-    margin-left: 15px;
+  font-family: 'Merriweather', serif;
+  color: rgb(113, 181, 96);
+  text-underline-offset: 2px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  vertical-align: middle;
+  margin-left: 15px;
 
 }
 
@@ -144,156 +146,156 @@ h2{
 
 /* Barra de navegacion */
 /* .menu{
-    background-color: rgba(62, 124, 23, 50);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: rgba(62, 124, 23, 50);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu a{
-    text-decoration: none;
-    color: aliceblue;
+  text-decoration: none;
+  color: aliceblue;
 }
 
 .menu li{
-        margin-right: 30px;
+      margin-right: 30px;
 }
 
 .menu ul{
-    
-        list-style-type: none;
-        margin: 15px;
-        padding: 0;
-        display: flex;
-        justify-content: center;
+  
+      list-style-type: none;
+      margin: 15px;
+      padding: 0;
+      display: flex;
+      justify-content: center;
 } */
 
 nav{
-  background-color: rgba(62, 124, 23, 50);
-  display: flex;
-  /* padding: 20px 0px 20px 0px; */
-  justify-content: center;
-  height: 50px;
-  
+background-color: rgba(62, 124, 23, 50);
+display: flex;
+/* padding: 20px 0px 20px 0px; */
+justify-content: center;
+height: 50px;
+
 }
 
 nav ul{
-  display: flex;
-  list-style: none;
-  gap: 20px;
-  height: 100%;
-  align-items: center;
-  
+display: flex;
+list-style: none;
+gap: 20px;
+height: 100%;
+align-items: center;
+
 }
 
 nav ul li{
-  height: 100%;
-  display: flex;
-  align-items: center;
-  padding: 0px 10px;
+height: 100%;
+display: flex;
+align-items: center;
+padding: 0px 10px;
 }
 
 nav ul li a{
-  text-decoration: none;
-  color: white;
+text-decoration: none;
+color: white;
 }
 
 nav ul li:hover{
-  background-color: rgb(44, 96, 11);
-  text-decoration: underline;
+background-color: rgb(44, 96, 11);
+text-decoration: underline;
 }
-  
+
 .menu_icono img{
-  border-radius: 2px;
+border-radius: 2px;
 }
 
 .menu_icono, #check{
-  display: none;
+display: none;
 }
 
 
 
 p,ul{
-    font-family: 'Arimo', sans-serif;
+  font-family: 'Arimo', sans-serif;
 }
 
 
 .objetivos{
-    margin-top: 20px;
-    margin-left: 50px;
+  margin-top: 20px;
+  margin-left: 50px;
 }
 
 li{
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 
 .textoindex{
-    margin: 20px;
+  margin: 20px;
 }
 
 
 /* Menu de abajo */
 
 .container{
-    display: flex;
-    padding: 10px;
-    /* text-align: center; */
-    justify-content: space-between;
+  display: flex;
+  padding: 10px;
+  /* text-align: center; */
+  justify-content: space-between;
 
 }
 
 /* .arreglotexto{
-    text-align: center;
-    padding-right: -50px;
+  text-align: center;
+  padding-right: -50px;
 } */
 
 .item {
-   width: 70%;
-  display:table;
+ width: 70%;
+display:table;
 }
 
 
 .mainlink{
-    color: #4E944F;
-    text-decoration-line: none;
+  color: #4E944F;
+  text-decoration-line: none;
 }
 
 .tresiduo{
-    text-align: center;
-    font-family: 'Merriweather', serif;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
 
 .gresiduo{
-    text-align: center;
-    font-family: 'Merriweather', serif;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
 .rrr{
-    text-align: center;
-    font-family: 'Merriweather', serif;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
 .rye{
-    text-align: center;
-    font-family: 'Merriweather', serif;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
 
 .contenedor_img{
-  width: 300px;
-  height: 275px;
-  overflow: hidden;
+width: 300px;
+height: 275px;
+overflow: hidden;
 }
 .contenedor_img img{
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
+width: 100%;
+height: 100%;
+object-fit: fill;
 }
 
 .box{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  color: #4E944F;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+color: #4E944F;
 }
 
 
@@ -304,165 +306,165 @@ li{
 
 
 @media (max-width: 450px) {
-    .textoindex, .objetivos, .introtipos {
+  .textoindex, .objetivos, .introtipos {
+    font-size: 25px;
+  }
+
+  .subtitulos {
+    font-size: 30px;
+  }
+
+}
+
+@media (max-width: 450px) {
+  .reciclaje {
+    width: 40%;
+    height: 40%;
+  }
+}
+
+@media (max-width: 450px) {
+  #logoYPF{
+  width: 30%;
+  height: 30%;
+    text-align: right;
+    margin-right: 0%;
+  }
+}
+
+@media (max-width: 450px) {
+  .tituloheader {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 450px) {
+  .contenedor_img {
+    width: 200px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 450px) {
+  .imgcontenedores {
+    width: 80%;
+  }
+}
+
+
+@media (max-width: 450px){
+  
+  h1{
       font-size: 25px;
-    }
-
-    .subtitulos {
-      font-size: 30px;
-    }
-
+  }
+  
+  .boton_check{
+      display: block;
   }
 
-@media (max-width: 450px) {
-    .reciclaje {
-      width: 40%;
-      height: 40%;
-    }
+  .menu_icono{
+      display: block;
   }
 
-@media (max-width: 450px) {
-    #logoYPF{
-    width: 30%;
-    height: 30%;
-      text-align: right;
-      margin-right: 0%;
-    }
+  .nav_menu{
+      justify-content: flex-start;
+      align-items: center;
+      padding-left: 10px;
   }
-
-  @media (max-width: 450px) {
-    .tituloheader {
-      font-size: 20px;
-    }
+  
+  .nav_menu ul{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: fixed;
+      top: 140px;
+      left: -100%;
+      background: rgba(62, 124, 23, 50);
+      width: 100%;
+      height: calc(100vh - 140px);
+      right: 0;
+      gap: 0;
+      
   }
-
-  @media (max-width: 450px) {
-    .container {
-      flex-wrap: wrap;
+  
+  .nav_menu ul li{
+      margin: 25px 0px;
+      padding: 20px 0px;
+      height: 20px;
+      width: 100%;
+      display: flex;
       justify-content: center;
-      gap: 30px;
-    }
   }
 
-  @media (max-width: 450px) {
-    .contenedor_img {
-      width: 200px;
-      height: 250px;
-    }
+  #check:checked ~ ul{
+      left: 0;
   }
+}
 
-  @media (max-width: 450px) {
-    .imgcontenedores {
-      width: 80%;
-    }
-  }
-
-
-  @media (max-width: 450px){
-    
-    h1{
-        font-size: 25px;
-    }
-    
-    .boton_check{
-        display: block;
-    }
-
-    .menu_icono{
-        display: block;
-    }
-
-    .nav_menu{
-        justify-content: flex-start;
-        align-items: center;
-        padding-left: 10px;
-    }
-    
-    .nav_menu ul{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: fixed;
-        top: 140px;
-        left: -100%;
-        background: rgba(62, 124, 23, 50);
-        width: 100%;
-        height: calc(100vh - 140px);
-        right: 0;
-        gap: 0;
-        
-    }
-    
-    .nav_menu ul li{
-        margin: 25px 0px;
-        padding: 20px 0px;
-        height: 20px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
-    #check:checked ~ ul{
-        left: 0;
-    }
-  }
-
-  /* Media query tablet */
+/* Media query tablet */
 
 @media (max-width: 750px) {
-    .textoindex, .objetivos, .introtipos {
-      font-size: 20px;
-    }
+  .textoindex, .objetivos, .introtipos {
+    font-size: 20px;
   }
+}
 
 @media (max-width: 750px) {
-    .subtitulos {
-      font-size: 25px;
-    }
+  .subtitulos {
+    font-size: 25px;
   }
+}
 
 @media (max-width: 450px) {
-    .reciclaje {
-      width: 40%;
-      height: 40%;
-    }
+  .reciclaje {
+    width: 40%;
+    height: 40%;
   }
+}
 
 @media (max-width: 450px) {
-    #logoYPF{
-    width: 30%;
-    height: 30%;
-      text-align: right;
-      margin-right: 0%;
-    }
+  #logoYPF{
+  width: 30%;
+  height: 30%;
+    text-align: right;
+    margin-right: 0%;
   }
+}
 
-  @media (max-width: 750px) {
-    .tituloheader {
-      font-size: 25px;
-    }
+@media (max-width: 750px) {
+  .tituloheader {
+    font-size: 25px;
   }
+}
 
-  @media (max-width: 750px) {
-    .container {
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 30px;
-    }
+@media (max-width: 750px) {
+  .container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
   }
+}
 
-  @media (max-width: 750px) {
-    .contenedor_img {
-      width: 250px;
-      height: 300px;
-    }
+@media (max-width: 750px) {
+  .contenedor_img {
+    width: 250px;
+    height: 300px;
   }
+}
 
-  @media (max-width: 450px) {
-    .imgcontenedores {
-      width: 90%;
-    }
+@media (max-width: 450px) {
+  .imgcontenedores {
+    width: 90%;
   }
+}
 
 
 
@@ -471,23 +473,23 @@ li{
 /* Tipos */
 
 .introtipos{
-    padding-left: 5%;
+  padding-left: 5%;
 }
 
 .imgcontenedores{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Footer */
 
 footer{
-    text-align: center;
-    font-size: 14px;
-    background-color: #4E944F;
-    box-shadow: 2px -2px 5px #73626e;
-    margin-top: 80px;
-    font-family: 'Arimo', sans-serif; 
-    color: aliceblue;   
+  text-align: center;
+  font-size: 14px;
+  background-color: #4E944F;
+  box-shadow: 2px -2px 5px #73626e;
+  margin-top: 80px;
+  font-family: 'Arimo', sans-serif; 
+  color: aliceblue;   
 }
