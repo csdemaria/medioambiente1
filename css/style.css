@@ -250,7 +250,7 @@ footer {
 
   /* Portada */
   .imagen_portada {
-    width: 30px;
+    width: 10;
   }
 
   /* Menu de abajo */
@@ -343,7 +343,11 @@ nav ul li {
 /* Footer */
 
 footer {
-  font-size: 2px;
+  font-size: 12px;
   margin-top: 80px;
 }
+}
+
+/* Desktop */
+@media (max-width: 1024px){
 }
