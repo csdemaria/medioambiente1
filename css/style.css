@@ -1,134 +1,65 @@
 /* Reset CSS */
 
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
 
-.titulo{
-  margin-top: 30px;
+.titulo {
+  margin-top: 15px;
   margin-bottom: 10px;
   display: flex;
-  
+
 }
 
 /* Header logo */
 
-.reciclaje{
+.reciclaje {
   display: flex;
   width: 70px;
+  height: 70px;
   margin-right: 10px;
   margin-left: 5px;
 }
 
-.row{
-  align-self: flex-start;
+body {
+  font-family: 'Arimo', sans-serif;
 }
-
-#superior{
-  background-color: white;
-}
-
-body{
-  /* background-color:white;
-  display: grid;
-  min-height: 100vh;
-  grid-template-rows: auto 1fr auto; */
-  font-family: 'Arimo', sans-serif;  
-}
-
-/* Img de fondo 
-
-.bg-wrap {
-  position: relative;
-}
-
-.bg-wrap:before {
-  content: ' ';
-  display: block;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.6;
-  background-image: url(./Imagenes/imgdefondo.png);
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  background-size: cover;
-}
-
-.bg-content {
-  position: relative;
-} */
-
-
-
 
 /* Logo YPF */
-#logoYPF{
+.logoYPF {
   width: 100px;
-  text-align: right;
   margin: 25px;
-}
-
-.logo{
-  text-align: right;
 }
 
 
 /* Header principal */
-header{
+header {
   display: flex;
   justify-content: space-between;
   padding: 0px 10px 0px 10px;
-  
+
 }
 
 /* Imagenes */
-.imagen_portada{
-display: flex;
-justify-content: center;
-background-color: #83d370;
+.imagen_portada {
+  display: flex;
+  justify-content: center;
+  background-color: #83d370;
 }
-
-/*Texto-en-imagen-principal */
-.texto-imagen{
-position: absolute;
-bottom: 105px;
-left: 19%;
-transform: translate(-50%, -50%);
-font-family: Helvetica;
-font-weight: bold;
-color: white;
-font-size: xx-large;
-background-color: #377938;
-}
-
-/* .subtitulo-imagen{
-position: absolute;
-bottom: -9px;
-right: 5%;
-transform: translate(-50%, -50%);
-font-family: Helvetica;
-font-weight: bold;
-color: white;
-font-size: larger;
-} */
-
 
 /* Titulos */
 
 
-h1{
-  margin-left: 2px;
+h1 {
   font-style: normal;
-  margin-top: 7px;
+  margin-top: 15px;
+  margin-left: 2px;
   font-family: 'Arimo', sans-serif;
 }
 
 
-h2{
+h2 {
   font-family: 'Merriweather', serif;
   color: rgb(113, 181, 96);
   text-underline-offset: 2px;
@@ -136,347 +67,131 @@ h2{
   padding-top: 20px;
   vertical-align: middle;
   margin-left: 15px;
-
 }
 
-
-
-
-
-
-/* Barra de navegacion */
-/* .menu{
+nav {
   background-color: rgba(62, 124, 23, 50);
   display: flex;
   justify-content: center;
+  height: 50px;
+
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  height: 100%;
   align-items: center;
+
 }
 
-.menu a{
+nav ul li {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+nav ul li a {
   text-decoration: none;
-  color: aliceblue;
+  color: white;
 }
 
-.menu li{
-      margin-right: 30px;
+nav ul li:hover {
+  background-color: rgb(44, 96, 11);
+  text-decoration: underline;
 }
 
-.menu ul{
-  
-      list-style-type: none;
-      margin: 15px;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-} */
-
-nav{
-background-color: rgba(62, 124, 23, 50);
-display: flex;
-/* padding: 20px 0px 20px 0px; */
-justify-content: center;
-height: 50px;
-
+.menu_icono img {
+  border-radius: 2px;
 }
 
-nav ul{
-display: flex;
-list-style: none;
-gap: 20px;
-height: 100%;
-align-items: center;
-
-}
-
-nav ul li{
-height: 100%;
-display: flex;
-align-items: center;
-padding: 0px 10px;
-}
-
-nav ul li a{
-text-decoration: none;
-color: white;
-}
-
-nav ul li:hover{
-background-color: rgb(44, 96, 11);
-text-decoration: underline;
-}
-
-.menu_icono img{
-border-radius: 2px;
-}
-
-.menu_icono, #check{
-display: none;
+.menu_icono,
+#check {
+  display: none;
 }
 
 
 
-p,ul{
+p,
+ul {
   font-family: 'Arimo', sans-serif;
 }
 
 
-.objetivos{
+.objetivos {
   margin-top: 20px;
   margin-left: 50px;
 }
 
-li{
+li {
   margin-top: 5px;
 }
 
 
-.textoindex{
+.textoindex {
   margin: 20px;
 }
 
 
 /* Menu de abajo */
 
-.container{
+.container {
   display: flex;
   padding: 10px;
-  /* text-align: center; */
   justify-content: space-between;
 
 }
 
-/* .arreglotexto{
-  text-align: center;
-  padding-right: -50px;
-} */
-
-.item {
- width: 70%;
-display:table;
-}
-
-
-.mainlink{
+.mainlink {
   color: #4E944F;
   text-decoration-line: none;
 }
 
-.tresiduo{
+.tresiduo {
   text-align: center;
   font-family: 'Merriweather', serif;
 }
 
-.gresiduo{
-  text-align: center;
-  font-family: 'Merriweather', serif;
-}
-.rrr{
-  text-align: center;
-  font-family: 'Merriweather', serif;
-}
-.rye{
+.gresiduo {
   text-align: center;
   font-family: 'Merriweather', serif;
 }
 
-.contenedor_img{
-width: 300px;
-height: 275px;
-overflow: hidden;
-}
-.contenedor_img img{
-width: 100%;
-height: 100%;
-object-fit: fill;
+.rrr {
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
 
-.box{
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
-color: #4E944F;
+.rye {
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
 
-
-
-/* Media query */
-
-/* Media query mobile */
-
-
-@media (max-width: 450px) {
-  .textoindex, .objetivos, .introtipos {
-    font-size: 25px;
-  }
-
-  .subtitulos {
-    font-size: 30px;
-  }
+.contenedor_img {
+  width: 300px;
+  height: 275px;
+  overflow: hidden;
+  align-items: center;
+  padding-bottom: 10px;
 
 }
 
-@media (max-width: 450px) {
-  .reciclaje {
-    width: 40%;
-    height: 40%;
-  }
+.contenedor_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
 }
-
-@media (max-width: 450px) {
-  #logoYPF{
-  width: 30%;
-  height: 30%;
-    text-align: right;
-    margin-right: 0%;
-  }
-}
-
-@media (max-width: 450px) {
-  .tituloheader {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 450px) {
-  .container {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-  }
-}
-
-@media (max-width: 450px) {
-  .contenedor_img {
-    width: 200px;
-    height: 250px;
-  }
-}
-
-@media (max-width: 450px) {
-  .imgcontenedores {
-    width: 80%;
-  }
-}
-
-
-@media (max-width: 450px){
-  
-  h1{
-      font-size: 25px;
-  }
-  
-  .boton_check{
-      display: block;
-  }
-
-  .menu_icono{
-      display: block;
-  }
-
-  .nav_menu{
-      justify-content: flex-start;
-      align-items: center;
-      padding-left: 10px;
-  }
-  
-  .nav_menu ul{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      position: fixed;
-      top: 140px;
-      left: -100%;
-      background: rgba(62, 124, 23, 50);
-      width: 100%;
-      height: calc(100vh - 140px);
-      right: 0;
-      gap: 0;
-      
-  }
-  
-  .nav_menu ul li{
-      margin: 25px 0px;
-      padding: 20px 0px;
-      height: 20px;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-  }
-
-  #check:checked ~ ul{
-      left: 0;
-  }
-}
-
-/* Media query tablet */
-
-@media (max-width: 750px) {
-  .textoindex, .objetivos, .introtipos {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 750px) {
-  .subtitulos {
-    font-size: 25px;
-  }
-}
-
-@media (max-width: 450px) {
-  .reciclaje {
-    width: 40%;
-    height: 40%;
-  }
-}
-
-@media (max-width: 450px) {
-  #logoYPF{
-  width: 30%;
-  height: 30%;
-    text-align: right;
-    margin-right: 0%;
-  }
-}
-
-@media (max-width: 750px) {
-  .tituloheader {
-    font-size: 25px;
-  }
-}
-
-@media (max-width: 750px) {
-  .container {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-  }
-}
-
-@media (max-width: 750px) {
-  .contenedor_img {
-    width: 250px;
-    height: 300px;
-  }
-}
-
-@media (max-width: 450px) {
-  .imgcontenedores {
-    width: 90%;
-  }
-}
-
-
-
 
 
 /* Tipos */
 
-.introtipos{
+.introtipos {
   padding-left: 5%;
 }
 
-.imgcontenedores{
+.imgcontenedores {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -484,12 +199,155 @@ color: #4E944F;
 
 /* Footer */
 
-footer{
+footer {
   text-align: center;
   font-size: 14px;
   background-color: #4E944F;
   box-shadow: 2px -2px 5px #73626e;
+  margin-top: 15px;
+  font-family: 'Arimo', sans-serif;
+  color: aliceblue;
+}
+
+/* Mobile First */
+
+@media (max-width: 425px) {
+
+  .titulo {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 6px;
+  }
+
+  h1 {
+    margin-top: 6px;
+    margin-left: 0px;
+  }
+
+  .reciclaje {
+    width: 30px;
+    height: 30px;
+  }
+
+  .logoYPF {
+    width: 50px;
+    margin-top: 15px;
+    margin-right: 20px;
+  }
+
+  /* NavBar */
+  nav {
+    height: 30px;
+    width: 100%;
+  }
+
+
+  nav ul li {
+    height: 100%;
+    width: 100%;
+    font-size: 10px;
+  }
+
+  /* Portada */
+  .imagen_portada {
+    width: 10;
+  }
+
+  /* Menu de abajo */
+
+  .container {
+    display: grid;
+    margin: 50px;
+    padding: 5px;
+  }
+
+  .contenedor_img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .contenedor_img img {
+    width: 80%;
+    height: 80%;
+  }
+
+  /* Footer */
+
+  footer {
+    font-size: 2px;
+    margin-top: 80px;
+  }
+
+}
+
+   /* Tablet */
+@media (max-width: 768px){
+ .titulo {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 6px;
+}
+
+h1 {
+  margin-top: 6px;
+  margin-left: 0px;
+}
+
+.reciclaje {
+  width: 30px;
+  height: 30px;
+}
+
+.logoYPF {
+  width: 50px;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+/* NavBar */
+nav {
+  height: 30px;
+  width: 100%;
+}
+
+
+nav ul li {
+  height: 100%;
+  width: 100%;
+  font-size: 10px;
+}
+
+/* Portada */
+.imagen_portada {
+  width: 715px;
+}
+
+/* Menu de abajo */
+
+.container {
+  display: flex;
+  margin: 50px;
+  padding: 5px;
+}
+
+.contenedor_img {
+  width: 200px;
+  height: 200px;
+}
+
+.contenedor_img img {
+  width: 80%;
+  height: 80%;
+}
+
+/* Footer */
+
+footer {
+  font-size: 12px;
   margin-top: 80px;
-  font-family: 'Arimo', sans-serif; 
-  color: aliceblue;   
+}
+}
+
+/* Desktop */
+@media (max-width: 1024px){
 }
