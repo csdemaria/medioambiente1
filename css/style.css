@@ -9,7 +9,6 @@
   margin-top: 15px;
   margin-bottom: 10px;
   display: flex;
-
 }
 
 /* Header logo */
@@ -23,7 +22,7 @@
 }
 
 body {
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo", sans-serif;
 }
 
 /* Logo YPF */
@@ -32,13 +31,11 @@ body {
   margin: 25px;
 }
 
-
 /* Header principal */
 header {
   display: flex;
   justify-content: space-between;
   padding: 0px 10px 0px 10px;
-
 }
 
 /* Imagenes */
@@ -50,17 +47,15 @@ header {
 
 /* Titulos */
 
-
 h1 {
   font-style: normal;
   margin-top: 15px;
   margin-left: 2px;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo", sans-serif;
 }
 
-
 h2 {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   color: rgb(113, 181, 96);
   text-underline-offset: 2px;
   padding-bottom: 20px;
@@ -74,7 +69,6 @@ nav {
   display: flex;
   justify-content: center;
   height: 50px;
-
 }
 
 nav ul {
@@ -83,7 +77,6 @@ nav ul {
   gap: 20px;
   height: 100%;
   align-items: center;
-
 }
 
 nav ul li {
@@ -112,13 +105,10 @@ nav ul li:hover {
   display: none;
 }
 
-
-
 p,
 ul {
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo", sans-serif;
 }
-
 
 .objetivos {
   margin-top: 20px;
@@ -129,11 +119,9 @@ li {
   margin-top: 5px;
 }
 
-
 .textoindex {
   margin: 20px;
 }
-
 
 /* Menu de abajo */
 
@@ -141,32 +129,31 @@ li {
   display: flex;
   padding: 10px;
   justify-content: space-between;
-
 }
 
 .mainlink {
-  color: #4E944F;
+  color: #4e944f;
   text-decoration-line: none;
 }
 
 .tresiduo {
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 
 .gresiduo {
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 
 .rrr {
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 
 .rye {
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 
 .contenedor_img {
@@ -175,7 +162,6 @@ li {
   overflow: hidden;
   align-items: center;
   padding-bottom: 10px;
-
 }
 
 .contenedor_img img {
@@ -183,7 +169,6 @@ li {
   height: 100%;
   object-fit: fill;
 }
-
 
 /* Tipos */
 
@@ -202,17 +187,88 @@ li {
 footer {
   text-align: center;
   font-size: 14px;
-  background-color: #4E944F;
+  background-color: #4e944f;
   box-shadow: 2px -2px 5px #73626e;
   margin-top: 15px;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo", sans-serif;
   color: aliceblue;
 }
 
 /* Mobile First */
+@media (min-width: 200px) and (max-width:430px){
+  .titulo {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 6px;
+    color: red;
+  }
 
-@media (max-width: 425px) {
+  h1 {
+    margin-top: 6px;
+    margin-left: 0px;
+  }
 
+  .reciclaje {
+    width: 30px;
+    height: 30px;
+  }
+
+  .logoYPF {
+    width: 50px;
+    margin-top: 15px;
+    margin-right: 20px;
+  }
+
+  /* Imagenes */
+.imagen_portada{
+  display: inline;
+}
+
+  /* NavBar */
+  nav {
+    height: 30px;
+    width: 100%;
+  }
+
+  nav ul li {
+    height: 100%;
+    width: 100%;
+    font-size: 10px;
+  }
+
+  /* Portada */
+  .imagen_portada img{
+    width: 50%;
+  }
+
+  /* Menu de abajo */
+
+  .container {
+    display: grid;
+    margin: 50px;
+    padding: 5px;
+  }
+
+  .contenedor_img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .contenedor_img img {
+    width: 80%;
+    height: 80%;
+  }
+
+  /* Footer */
+
+  footer {
+    font-size: 2px;
+    margin-top: 80px;
+  }
+}
+
+/* Tablet */
+@media (max-width:768px) {
   .titulo {
     margin-top: 15px;
     margin-bottom: 10px;
@@ -241,7 +297,6 @@ footer {
     width: 100%;
   }
 
-
   nav ul li {
     height: 100%;
     width: 100%;
@@ -250,13 +305,13 @@ footer {
 
   /* Portada */
   .imagen_portada {
-    width: 10;
+    width: 715px;
   }
 
   /* Menu de abajo */
 
   .container {
-    display: grid;
+    display: flex;
     margin: 50px;
     padding: 5px;
   }
@@ -274,80 +329,18 @@ footer {
   /* Footer */
 
   footer {
-    font-size: 2px;
+    font-size: 12px;
     margin-top: 80px;
   }
-
-}
-
-   /* Tablet */
-@media (max-width: 768px){
- .titulo {
-  margin-top: 15px;
-  margin-bottom: 10px;
-  font-size: 6px;
-}
-
-h1 {
-  margin-top: 6px;
-  margin-left: 0px;
-}
-
-.reciclaje {
-  width: 30px;
-  height: 30px;
-}
-
-.logoYPF {
-  width: 50px;
-  margin-top: 15px;
-  margin-right: 20px;
-}
-
-/* NavBar */
-nav {
-  height: 30px;
-  width: 100%;
-}
-
-
-nav ul li {
-  height: 100%;
-  width: 100%;
-  font-size: 10px;
-}
-
-/* Portada */
-.imagen_portada {
-  width: 715px;
-}
-
-/* Menu de abajo */
-
-.container {
-  display: flex;
-  margin: 50px;
-  padding: 5px;
-}
-
-.contenedor_img {
-  width: 200px;
-  height: 200px;
-}
-
-.contenedor_img img {
-  width: 80%;
-  height: 80%;
-}
-
-/* Footer */
-
-footer {
-  font-size: 12px;
-  margin-top: 80px;
-}
 }
 
 /* Desktop */
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
 }
+
+
+
+/* @media (max-width: NUMEROpx) and (max-width:numeropx){    …  }
+
+@media (min-width: NUMEROpx) and (max-width:numeropx){    …  } */
+
