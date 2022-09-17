@@ -126,7 +126,7 @@ li {
   margin-top: 5px;
 }
 
-.textoindex {
+.textoparrafo {
   margin: 20px;
 }
 
@@ -173,11 +173,20 @@ li {
   height: 100%;
 }
 
+/* Recuadro Verde */
+
+.recuadroverde{
+  color: white;
+  background-color: #83d370;
+  font-weight: bold;
+  padding: 2%;
+  margin: 1%;
+  border-radius: 15px;
+}
+
 /* Tipos */
 
-.introtipos {
-  padding-left: 5%;
-}
+
 
 .imgcontenedores {
   display: block;
