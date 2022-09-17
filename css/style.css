@@ -122,12 +122,18 @@ ul {
   margin-left: 50px;
 }
 
+ul{
+  margin: 20px 60px;
+}
+
 li {
   margin-top: 5px;
 }
 
+
 .textoparrafo {
   margin: 20px;
+
 }
 
 /* Menu de abajo */
@@ -181,7 +187,6 @@ li {
   font-weight: bold;
   padding: 2%;
   margin: 1%;
-  border-radius: 15px;
 }
 
 /* Tipos */
@@ -193,6 +198,33 @@ li {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Recuadro 3R */
+
+.recuadro3r{
+  background-color: #f0563bbc;
+  padding: 2%;
+  margin: 1%;
+  border-radius: 15px;
+  border: 2px solid #f0563b;
+}
+
+#Reutilizar{
+  background-color: #f09f3bbc;
+  border: 2px solid #f09f3b;
+}
+
+#Reciclar{
+  background-color: #f0e73bbc;
+  border: 2px solid #f0e73b;
+}
+
+h3{
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 
 /* Footer */
 
