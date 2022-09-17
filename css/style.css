@@ -228,14 +228,14 @@ h3{
 
 /* Footer */
 
-footer {
+footer{
   text-align: center;
   font-size: 8px;
   background-color: #4e944f;
-  box-shadow: 2px -2px 5px #73626e;
-  margin-top: 5px;
+  padding: 2px;
   font-family: "Arimo", sans-serif;
   color: aliceblue;
+  border-top: 4px solid #83d370;
 }
 
 /* Tablet */
