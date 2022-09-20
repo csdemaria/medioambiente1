@@ -101,6 +101,10 @@ nav ul li:hover {
   text-decoration: underline;
 }
 
+nav li {
+  max-width: max-content;
+}
+
 .menu_icono img {
   border-radius: 2px;
 }
@@ -115,15 +119,14 @@ ul {
   font-family: "Arimo", sans-serif;
 }
 
-.objetivos {
-  margin-top: 20px;
-  margin-left: 50px;
+ul{
+  margin: 5% 10%;
+  list-style-type: disc;
 }
 
-li {
-  max-width: max-content;
+li{
+  padding: 5px;
 }
-
 
 .textoparrafo {
   margin: 20px;
@@ -183,10 +186,20 @@ li {
   background-color: #83d370;
   font-weight: bold;
   padding: 2%;
-  margin: 1%;
+  margin: 3%;
 }
 
-/* Tipos */
+
+
+/* Imagenes en todas las páginas */
+
+.imgsPagina{
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* excepto en Tipos */
 
 .imgcontenedores {
   display: block;
