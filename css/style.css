@@ -36,12 +36,16 @@ header {
   padding: 0px 10px 0px 10px;
 }
 
-/* Imagenes */
+/* Imagen Portada */
 .imagen_portada {
   display: flex;
   justify-content:center;
-  background-color: #83d370;
-  width: 7%;
+  /* background-color: #83d370; */
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /* Titulos */
