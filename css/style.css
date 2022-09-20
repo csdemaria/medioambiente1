@@ -40,7 +40,6 @@ header {
 .imagen_portada {
   display: flex;
   justify-content:center;
-  /* background-color: #83d370; */
 }
 
 img {
@@ -147,22 +146,7 @@ li{
   text-decoration-line: none;
 }
 
-.tresiduo {
-  text-align: center;
-  font-family: "Merriweather", serif;
-}
-
-.gresiduo {
-  text-align: center;
-  font-family: "Merriweather", serif;
-}
-
-.rrr {
-  text-align: center;
-  font-family: "Merriweather", serif;
-}
-
-.rye {
+.tresiduo, .gresiduo, .rrr, .rye {
   text-align: center;
   font-family: "Merriweather", serif;
 }
