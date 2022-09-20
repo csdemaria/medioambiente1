@@ -71,15 +71,14 @@ nav {
   background-color: rgba(62, 124, 23, 50);
   display: flex;
   justify-content: center;
-  height: 30px;
+  height: 40px;
   width: 100%;
 }
 
 nav ul {
   display: flex;
   list-style: none;
-  gap: 20px;
-  height: 100%;
+  gap: 10px;
   align-items: center;
 }
 
@@ -121,12 +120,8 @@ ul {
   margin-left: 50px;
 }
 
-ul{
-  margin: 20px 60px;
-}
-
 li {
-  margin-top: 5px;
+  max-width: max-content;
 }
 
 
