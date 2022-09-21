@@ -156,7 +156,7 @@ li{
 .contenedor_img {
   overflow: hidden;
   align-items: center;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   text-align: center;
 }
   .contenedor_img img {
@@ -275,7 +275,7 @@ footer{
   .container {
     display: flex;
     flex-direction: row;
-    margin: 50px;
+    margin: 15px;
     padding: 5px;
   }
 
