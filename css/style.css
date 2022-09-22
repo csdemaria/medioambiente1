@@ -7,17 +7,18 @@
 
  /* MOBILE FIRST */
 .titulo {
-  font-size: 6px;
   display: flex;
-  margin-top: 15px;
-  margin-bottom: 10px;
+  align-items: center;
+  padding-top: 15px;
 }
 
 /* Header logo */
 
 .reciclaje {
   display: flex;
-  width: 20%;
+  width: 9%;
+  height: auto;
+  padding-right: 2%;
 }
 
 body {
@@ -26,7 +27,11 @@ body {
 
 /* Logo YPF */
 .logoYPF {
-  width: 90%;
+  width: 40%;
+}
+
+.div-logoypf{
+  text-align: right;
 }
 
 /* Header principal */
@@ -36,7 +41,13 @@ header {
   padding: 0px 10px 0px 10px;
 }
 
+.tituloheader{
+  display: flex;
+  vertical-align: middle;
+}
+
 /* Imagen Portada */
+
 .imagen_portada {
     display: block;
     margin: 0 auto;
@@ -45,8 +56,7 @@ header {
 }
 
 img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 50%;
 }
 
 /* Titulos */
@@ -54,18 +64,26 @@ img {
 h1 {
   font-style: normal;
   font-family: "Arimo", sans-serif;
-  margin-block-start: 1.5em;
-  margin-left: 2%;
+  font-size: 11px;
 }
 
 h2 {
   font-family: "Merriweather", serif;
   color: rgb(113, 181, 96);
   text-underline-offset: 2px;
-  padding-bottom: 20px;
   padding-top: 20px;
   vertical-align: middle;
   margin-left: 15px;
+  font-size: 10px;
+}
+
+.menu{
+  height: 10%;
+  align-items: center;
+}
+
+.menu ul li a{
+  margin: 0 20% 0 20%;
 }
 
 nav {
@@ -81,12 +99,15 @@ nav ul {
   list-style: none;
   gap: 10px;
   align-items: center;
+  height: 20%;
+  margin: 10px 5px 10px 5px;
 }
 
 nav ul li {
   width: 100%;
   height: 100%;
-  font-size: 10px;
+  font-size: 6px;
+  text-align: center;
   display: flex;
   align-items: center;
   padding: 0px 10px;
@@ -95,6 +116,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: white;
+  font-size: 9px;
 }
 
 nav ul li:hover {
@@ -105,33 +127,41 @@ nav li {
   max-width: max-content;
 }
 
-.menu_icono img {
-  border-radius: 2px;
-}
-
-.menu_icono,
-#check {
-  display: none;
-}
-
 p,
 ul {
   font-family: "Arimo", sans-serif;
+  font-size: 10px;
 }
 
 ul{
-  margin: 5% 10%;
   list-style-type: disc;
 }
 
+.ul-tiposderesiduos{
+  margin-left: 5%;
+  font-size: 9px;
+}
+
 li{
-  padding: 5px;
+  padding: 3px;
+  font-size: 10px;
 }
 
 .textoparrafo {
   margin: 20px;
-
+  font-size: 10px;
 }
+
+span{
+  font-style: bold;
+  text-decoration: underline;
+}
+
+.ul-gestion{
+  margin-left: 5%;
+  font-size: 8px;
+}
+
 
 /* Menu de abajo en index */
 
@@ -139,12 +169,13 @@ li{
   display: flex;
   flex-direction: column;
   padding: 10px;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .mainlink {
   color: #4e944f;
   text-decoration-line: none;
+  font-size: 8px;
 }
 
 .tresiduo, .gresiduo, .rrr, .rye {
@@ -153,13 +184,11 @@ li{
 }
 
 .contenedor_img {
-  overflow: hidden;
   align-items: center;
   padding-bottom: 20px;
   text-align: center;
 }
   .contenedor_img img {
-  width: 80%;
   display: block;
   margin: 0 auto;
 }
@@ -179,7 +208,7 @@ li{
 /* Imagenes en todas las páginas */
 
 .imgsPagina{
-  width: 70%;
+  width: 30%;
   display: block;
   margin: 0 auto;
 }
@@ -223,7 +252,7 @@ h3{
 
 footer{
   text-align: center;
-  font-size: 8px;
+  font-size: 5px;
   background-color: #4e944f;
   padding: 2px;
   font-family: "Arimo", sans-serif;
@@ -234,53 +263,70 @@ footer{
 /* TABLET */
 @media (min-width:768px) {
   .titulo {
-    margin-top: 15px;
-    margin-bottom: 10px;
-    font-size: 6px;
+    padding-top: 15px;
+    width: 50%;
+    font-size: 1.5rem;
   }
 
-  h1 {
-    margin-top: 10px;
-    margin-left: 5px;
+  h1{
+    font-size: 16px;
   }
-
   .reciclaje {
-    width: 30px;
-    height: 30px;
+    display: flex;
+    width: 10%;
+    height: auto;
+    padding-right: 2%
   }
 
   .logoYPF {
-    width: 50px;
-    margin-top: 8px;
-    margin-right: 20px;
+    width: 30%;
   }
 
   /* NavBar */
-  nav {
-    height: 40px;
-    width: 100%;
-  }
 
   nav ul li {
     height: 100%;
     width: 100%;
-    font-size: 10px;
-    padding-bottom: 35px;
   }
   
 
+  nav ul li a{
+    font-size: 12px;
+  }
+
+  h2{
+    font-size: 15px;
+  }
+
+  .textoparrafo {
+    font-size: 13px;
+  }
+
+  .ul-tiposderesiduos{
+    font-size: 12px;
+  }
+
+  p, ul {
+  font-size: 13px;
+}
+
+li{
+  font-size: 13px;
+}
   /* Menu de abajo */
 
   .container {
-    display: flex;
-    flex-direction: row;
-    margin: 15px;
-    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 25%);
   }
 
   .contenedor_img img {
+    height: auto;
     width: 80%;
-    height: 80%;
+  }
+
+  .mainlink{
+    font-size: 12px
   }
 
   .imgsPagina{
@@ -292,8 +338,8 @@ footer{
   /* Footer */
 
   footer {
-    font-size: 12px;
-    margin-top: 10px;
+    font-size: 10px;
+    margin-top: 50px;
   }
 }
 
@@ -301,19 +347,22 @@ footer{
 @media (min-width: 1024px) {
 
   .titulo {
-    margin-top: 15px;
-    margin-bottom: 10px;
-    font-size: 6px;
+    width: 50%;
+    padding-top: 15px;
   }
+
 
 /* Header logo */
 
 .reciclaje {
-display: flex;
-width: 70px;
-height: 70px;
-margin-right: 10px;
-margin-left: 5px;
+  display: flex;
+  width: 10%;
+  height: auto;
+  padding-right: 2%
+}
+
+h1 {
+  font-size: 18px;
 }
 
 body {
@@ -322,9 +371,9 @@ font-family: "Arimo", sans-serif;
 
 /* Logo YPF */
 .logoYPF {
-width: 100px;
-margin-top: 5px;
+width: 30%;
 }
+
 
 /* Header principal */
 header {
@@ -333,22 +382,28 @@ justify-content: space-between;
 padding: 0px 10px 0px 10px;
 }
 
-
-/* Titulos */
-
-h1 {
-margin-top: 5px;
-margin-left: 2px;
-margin-block-start: 2em;
+nav ul li a{
+  font-size: 16px;
 }
 
-
-nav {
-height: 50px;
+h2{
+  font-size: 18px;
 }
 
-nav ul li {
-  padding-bottom: 50px;
+.textoparrafo {
+  margin: 20px;
+  font-size: 15px;
+}
+
+.ul-tiposderesiduos{
+  font-size: 15px;
+}
+
+p, ul {
+  font-size: 15px;
+}
+
+li{
   font-size: 15px;
 }
 
@@ -357,6 +412,14 @@ nav ul li {
 .contenedor_img img {
 width: 100%;
 height: 100%;
+}
+
+.mainlink{
+  font-size: 15px;
+}
+
+footer{
+  font-size: 12px;
 }
 
 }
@@ -364,9 +427,10 @@ height: 100%;
 @media (min-width: 1440px) {
 
   .titulo {
-    margin-top: 15px;
-    margin-bottom: 10px;
-    font-size: 6px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    display: flex;
+    vertical-align: middle;
   }
 
 /* Header logo */
@@ -379,14 +443,18 @@ margin-right: 10px;
 margin-left: 5px;
 }
 
+.tituloheader{
+  display: flex;
+  vertical-align: middle;
+}
+
 body {
 font-family: "Arimo", sans-serif;
 }
 
 /* Logo YPF */
 .logoYPF {
-width: 100px;
-margin-top: 5px;
+width: 30%;
 }
 
 /* Header principal */
@@ -402,25 +470,50 @@ padding: 0px 10px 0px 10px;
 h1 {
 margin-top: 5px;
 margin-left: 2px;
-margin-block-start: 2em;
+font-size: 20px;
 }
 
 
-nav {
-height: 50px;
+
+nav ul li a{
+  font-size: 16px;
+
 }
 
-nav ul li {
-  padding-bottom: 85px;
-  font-size: 15px;
+h2{
+  font-size: 20px;
+}
 
+.textoparrafo{
+  font-size: 18px;
+}
+
+.ul-tiposderesiduos{
+  font-size: 18px;
+}
+
+p, ul {
+  font-size: 18px;
+}
+
+li{
+  font-size: 18px;
 }
 
 /* Menu de abajo */
 
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 15%);
+}
+
 .contenedor_img img {
 width: 100%;
 height: 100%;
+}
+
+footer{
+  font-size: 14px;
 }
 
 }
@@ -428,19 +521,20 @@ height: 100%;
 @media (min-width: 2560px) {
 
   .titulo {
-    margin-top: 15px;
-    margin-bottom: 10px;
-    font-size: 6px;
+    padding-top: 50px;
+    padding-bottom: 10px;
   }
 
 /* Header logo */
 
 .reciclaje {
-display: flex;
-width: 70px;
-height: 70px;
-margin-right: 10px;
-margin-left: 5px;
+  display: flex;
+  width: 8%;
+  height: auto;
+  padding-right: 2%
+}
+h1{
+  font-size: 35px;
 }
 
 body {
@@ -449,8 +543,8 @@ font-family: "Arimo", sans-serif;
 
 /* Logo YPF */
 .logoYPF {
-width: 100px;
-margin-top: 5px;
+width: 30%;
+height: auto;
 }
 
 /* Header principal */
@@ -463,25 +557,29 @@ padding: 0px 10px 0px 10px;
 
 /* Titulos */
 
-h1 {
-margin-top: 5px;
-margin-left: 2px;
-margin-block-start: 2em;
-font-size: 16px;
+
+nav ul li a{
+  font-size: 23px;
 }
 
-p{
+h2{
+  font-size: 25px;
+}
+
+.textoparrafo{
   font-size: 20px;
 }
-nav {
-height: 100px;
+
+.ul-tiposderesiduos{
+  font-size: 19px;
 }
 
-nav ul li {
-  margin-bottom: 50px;
-  padding-bottom: 100px;
-  font-size: 15px;
+p, ul {
+  font-size: 18px;
+}
 
+li{
+  font-size: 18px;
 }
 
 /* Menu de abajo */
@@ -491,6 +589,14 @@ width: 100%;
 height: 100%;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 15%);
+}
+
+footer{
+  font-size: 14px;
+}
 }
 
 
