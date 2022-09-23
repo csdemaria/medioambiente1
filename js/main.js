@@ -1,5 +1,5 @@
 let miBoton = document.querySelector('button');
-let miTitulo = document.querySelector( 'h1');
+let miTitulo = document.querySelector( 'h3');
 
 function estableceNombreUsuario() {
     let miNombre = prompt('Por favor, ingresa tu nombre.');
