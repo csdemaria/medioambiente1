@@ -23,6 +23,6 @@ if(preguntainicial == afirmacion){
 
 
 
-//Localidad
+// Localidad
 
-// let localidad = prompt("De qué localidad sos?");
+let localidad = prompt("De qué localidad sos?");
