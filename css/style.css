@@ -346,6 +346,16 @@ li{
     margin: 0 auto;
   }
 
+  .calculoResiduos{
+    margin-left: 5%;
+    font-size: 13px;
+  }
+  
+  .calculoParrafo{
+    margin: 20px;
+    font-size: 13px;
+  }
+
   /* Footer */
 
   footer {
@@ -511,6 +521,16 @@ li{
   font-size: 18px;
 }
 
+.calculoResiduos{
+  margin-left: 5%;
+  font-size: 18px;
+}
+
+.calculoParrafo{
+  margin: 25px;
+  font-size: 18px;
+}
+
 /* Menu de abajo */
 
 .container {
@@ -591,6 +611,16 @@ p, ul {
 
 li{
   font-size: 18px;
+}
+
+.calculoResiduos{
+  margin-left: 5%;
+  font-size: 20px;
+}
+
+.calculoParrafo{
+  margin: 30px;
+  font-size: 20px;
 }
 
 /* Menu de abajo */
