@@ -162,6 +162,17 @@ span{
   font-size: 8px;
 }
 
+.calculoResiduos{
+  margin-left: 5%;
+  font-size: 10px;
+}
+
+.calculoParrafo{
+  margin: 10px;
+  font-size: 10px;
+  color: #4e944f;
+}
+
 
 /* Menu de abajo en index */
 
