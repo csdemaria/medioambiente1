@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>Medioambiente 1 - Página grupal</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="../imagenes/faviconreciclaje.ico">
+
+    <!-- Tipografias -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+
+        <!-- Titulo -->
+
+        <div class="titulo">
+            <img src="../imagenes/logoreciclaje.png" alt="logo de reciclaje" class="reciclaje" />
+            <h1>RESIDUOS Y RECICLAJE</h1>
+        </div>
+
+        <!-- Logo YPF  -->
+
+        <div class="div-logoypf">
+            <img src="../imagenes/logoypf.png" alt="logo fundación YPF" class="logoYPF" />
+        </div>
+    </header>
+
+    <!-- Menu de navegacion  -->
+
+    <nav class="menu">
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../html/tipos.html">Tipos de residuos</a></li>
+            <li><a href="gestion.html">Gestión de residuos</a></li>
+            <li><a href="../html/rrr.html">Las 3R</a></li>
+            <li><a href="../html/residuosyenergia.html">Residuos y energía</a></li>
+            <li><a href="../html/llevar.html">Llevar mis residuos</a></li>
+        </ul>
+    </nav>
+
+    
+
+    <main>
+
+        <h2 class="subtitulos">Llevar mis residuos</h2>
+
+        <p class="textoparrafo"> Si tienes objetos para llevar a reciclar aquí te informaremos los centros de reciclaje más cercanos a tu localidad </p>
+
+        <form>
+        <label for="localidad">Elige la localidad:</label>
+        <select id="localidad" name="localidad">
+            <option value="Abasto">Abasto</option>
+            <option value="City Bell">City Bell</option>
+            <option value="El Peligro">El Peligro</option>
+            <option value="Joaquin Gorina">Joaquin Gorina</option>
+            <option value="Lisandro Olmos">Lisandro Olmos</option>
+            <option value="La Plata (Capital)">La Plata (Capital)</option>
+            <option value="Los Hornos">Los Hornos</option>
+            <option value="Manuel B. Gonnet">Manuel B. Gonnet</option>
+            <option value="Melchor Romero">Melchor Romero</option>
+            <option value="Ringuelet">Ringuelet</option>
+            <option value="Tolosa">Tolosa</option>
+            <option value="Villa Elvira">Villa Elvira</option>
+            <option value="Villa Elisa">Villa Elisa</option>
+        </select>
+        </form>
+
+        <p>Cliquea el botón para confirmar la localidad.</p>
+
+        <button type="button" onclick="localidadElegida()">Confirmar</button>
+
+        <p id="lugarElegido"></p>
+
+        <section>
+           
+
+           
+        </section>
+
+        
+            
+        
+        
+        
+    </main>
+
+    <footer>
+        <div>
+            <p>Desarrollo Web Frontend | Ingenias 2022 | Medioambiente 1</p>
+            <p>Rocío Albariño, Agustina Campot, Celeste Sofía Demaría.</p>
+        </div>
+    </footer>
+    <script src="../llevar.js"></script>
+</body>
+
+</html>
