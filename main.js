@@ -1,3 +1,14 @@
+class Persona{
+    constructor(nombre, localidad){
+        this.nombre = nombre
+        this.localidad = localidad
+    }
+
+    toString(){
+        return `Hola, ${this.nombre} bienvenido/a al sitio!`
+    }
+}
+
 //Bienvenida
 
 let nombre = prompt("Ingrese su nombre.");
@@ -6,6 +17,7 @@ let saludo = "Bienvenido " + nombre + " a nuestro sitio.";
 
 alert(saludo);
 
+let localidad = prompt("En que provincia vivis?");
 
 // Pregunta inicial
 
@@ -20,7 +32,9 @@ if(preguntainicial == afirmacion){
     //devuelve false
     alert("Tal vez leyendo la información en esta página despierte tu interés por el reciclaje.")
 }
+persona1 = new Persona(nombre,localidad)
 
+document.getElementById("personaNueva").innerHTML = persona1.toString()
 
 //Cálculo residuos index
 
@@ -30,4 +44,3 @@ function multiplicacion()
         num2 = 0.79;
         document.getElementById("resultado").innerHTML = num1 * num2;
 }
-
