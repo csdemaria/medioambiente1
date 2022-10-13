@@ -36,6 +36,23 @@ persona1 = new Persona(nombre,localidad)
 
 document.getElementById("personaNueva").innerHTML = persona1.toString()
 
+//Dark Mode - Light Mode
+
+function darkMode() {
+    var element = document.body;
+    var content = document.getElementById("DarkModeText");
+    element.className = "dark-mode";
+    content.innerText = "Dark Mode is ON";
+}
+
+function lightMode() {
+    var element = document.body;
+    var content = document.getElementById("DarkModeText");
+    element.className = "light-mode";
+    content.innerText = "Dark Mode is OFF";
+}
+
+
 //Cálculo residuos index
 
 function multiplicacion()

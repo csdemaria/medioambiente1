@@ -25,6 +25,20 @@ body {
   font-family: "Arimo", sans-serif;
 }
 
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.darklightmodeButtons {
+  text-align: right;
+}
+
 /* Logo YPF */
 .logoYPF {
   width: 40%;
