@@ -1,3 +1,10 @@
+//Dark Mode - Light Mode
+
+function darkMode() {
+  let element = document.body;
+  element.classList.toggle("dark-mode");
+}
+
 //Elegir Localidad
 
 let localidades = ["City Bell", "La Plata(Capital)", "Manuel B. Gonnet", "Tolosa", "Villa Elisa"]
