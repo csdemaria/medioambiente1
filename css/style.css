@@ -23,6 +23,8 @@
 
 body {
   font-family: "Arimo", sans-serif;
+  background-color: white;
+  color: black;
 }
 
 .dark-mode {
@@ -30,12 +32,7 @@ body {
   color: white;
 }
 
-.light-mode {
-  background-color: white;
-  color: black;
-}
-
-.darklightmodeButtons {
+.darklightmodeButton {
   text-align: right;
 }
 

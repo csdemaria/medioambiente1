@@ -39,19 +39,9 @@ document.getElementById("personaNueva").innerHTML = persona1.toString()
 //Dark Mode - Light Mode
 
 function darkMode() {
-    var element = document.body;
-    var content = document.getElementById("DarkModeText");
-    element.className = "dark-mode";
-    content.innerText = "Dark Mode is ON";
+    let element = document.body;
+    element.classList.toggle("dark-mode");
 }
-
-function lightMode() {
-    var element = document.body;
-    var content = document.getElementById("DarkModeText");
-    element.className = "light-mode";
-    content.innerText = "Dark Mode is OFF";
-}
-
 
 //Cálculo residuos index
 
