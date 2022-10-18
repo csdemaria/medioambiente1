@@ -51,3 +51,18 @@ function multiplicacion()
         num2 = 0.79;
         document.getElementById("resultado").innerHTML = num1 * num2;
 }
+
+const options = {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': '287552b3d1msh125ee3dabfea396p146740jsn16950b79cc9a',
+		'X-RapidAPI-Host': 'environment-news-live.p.rapidapi.com'
+	}
+};
+
+fetch('https://environment-news-live.p.rapidapi.com/news/timesofindia', options)
+    .then(response => response.json())
+	.then(response => console.log(response))
+	.catch(err => console.error(err));
+
+function mostrarNoticia()
