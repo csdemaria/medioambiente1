@@ -65,4 +65,6 @@ fetch('https://environment-news-live.p.rapidapi.com/news/timesofindia', options)
 	.then(response => console.log(response))
 	.catch(err => console.error(err));
 
-function mostrarNoticia()
+// function mostrarNoticia(){
+
+// }
