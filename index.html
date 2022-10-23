@@ -31,15 +31,6 @@
             <div class="tituloheader">
                 <h1>RESIDUOS Y RECICLAJE</h1>
             </div>
-
-           <!-- Boton Bienvenida  -->
-            <div>
-                <h3></h3>
-            </div>
-
-            <div>
-                <button>Registrarse</button>
-            </div>
         </div>
 
         <!-- Logo YPF  -->
@@ -47,7 +38,6 @@
         <div class="div-logoypf">
             <img src="imagenes/logoypf.png" alt="logo fundación YPF" class="logoYPF" />
         </div>
-
     </header>
 
     <div class="darklightmodeButton" style="display: flex; justify-content: end;">
@@ -78,18 +68,28 @@
             <img src="imagenes/index/imgportada.png" alt="imagen del planeta surgiendo de las manos" />
         </div>
 
-        <!-- Info index -->
+       <!-- Info index -->
 
-       <p class="textoparrafo">En todo el mundo, la cantidad de los desechos que se generan está aumentando. En el año 2020 se estimó que fueron generados 2.24 billones de toneladas de desechos, lo que equivaldría a unos 0,79 kg por persona por día. De esta cantidad masiva de residuos, solo se recicla un 13%. Todavía tenemos mucho que hacer para mejorar estas cifras, tanto empresas como individuos debemos ser responsables con los residuos que generamos.</p>
 
-        <p class="textoparrafo">
-            En esta página encontrarán información útil para las personas que les
-            servirá para conocer mejor los tipos de residuos que generamos, cuáles
-            se pueden reciclar en los sistemas de clasificación municipal, qué
-            podemos hacer en nuestros hogares para disminuir los mismos e incluso
-            conocer que a gran escala los residuos se pueden aprovechar para generar
-            energía.
-        </p>
+       <p class="textoparrafo">En todo el mundo, la cantidad de los desechos que se generan está aumentando. En el año 2020 se estimó que fueron generados 2.24 billones de toneladas de desechos, incluso podemos hacer un cálculo estimado de cuánto residuo generamos en una determinada cantidad de días: </p>
+
+       <section class="calculoResiduos">
+        
+        <form>
+        Días : <input type="text" id="diasIngresados" />
+        <input type="button" onClick="multiplicacion()" Value="Calcular" />
+        </form>
+
+        
+            <p class="calculoParrafo">Se generan 
+            <span id = "resultado"></span> kilogramos.</p>
+        
+        </section>
+       
+
+        <p class="textoparrafo">De la cantidad masiva de residuos que generamos mundialmente, solo se recicla un 13%. Todavía tenemos mucho que hacer para mejorar estas cifras, tanto empresas como individuos debemos ser responsables con los residuos que generamos.</p>
+
+       <p class="textoparrafo">En esta página encontrarán información útil para las personas que les servirá para conocer mejor los tipos de residuos que generamos, cuáles se pueden reciclar en los sistemas de clasificación municipal, qué podemos hacer en nuestros hogares para disminuir los mismos e incluso conocer que a gran escala los residuos se pueden aprovechar para generar energía.</p>
 
         <div class="container">
             <div class="contenedor_img">
@@ -117,9 +117,11 @@
     <footer>
         <div>
             <p>Desarrollo Web Frontend | Ingenias 2022 | Medioambiente 1</p>
-            <p>Rocío Albariño, Agustina Campot, Celeste Sofía Demaría, Katherina Impa, Casandra Ledesma, Soledad Ochoa y Amparo Vicente.</p>
+            <p>Rocío Albariño, Agustina Campot, Celeste Sofía Demaría.</p>
         </div>
     </footer>
+    
+    <script src="main.js"></script>
 </body>
 
 </html>
