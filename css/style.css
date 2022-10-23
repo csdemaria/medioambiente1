@@ -269,6 +269,14 @@ h3{
   margin-bottom: 10px;
 }
 
+/* Mapa frame */
+
+.mapa{
+  margin-top: 5%;
+  margin-left: 8%;
+  width: 85%;
+}
+
 
 /* Footer */
 
@@ -650,11 +658,3 @@ footer{
   font-size: 14px;
 }
 }
-
-
-
-
-
-
-
-
