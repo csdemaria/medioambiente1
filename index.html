@@ -18,6 +18,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet" />
+
+    <script src="https://kit.fontawesome.com/649e22aa3c.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -48,6 +50,15 @@
 
     </header>
 
+    <div class="darklightmodeButton" style="display: flex; justify-content: end;">
+
+        <p style="margin-right: 25px; margin-bottom: 1px;" id="personaNueva"></p>
+        
+        <i class="fa-solid fa-circle-half-stroke" onclick="darkMode()"></i>
+
+    </div>
+       
+
     <!-- Menu de navegacion  -->
 
     <nav class="menu">
@@ -57,6 +68,7 @@
             <li><a href="html/gestion.html">Gestión de residuos</a></li>
             <li><a href="html/rrr.html">Las 3R</a></li>
             <li><a href="html/residuosyenergia.html">Residuos y energía</a></li>
+            <li><a href="html/llevar.html">Llevar mis residuos</a></li>
         </ul>
     </nav>
 
@@ -68,15 +80,7 @@
 
         <!-- Info index -->
 
-        <p class="textoparrafo">
-            En todo el mundo, la cantidad de los desechos que se generan está
-            aumentando. En el año 2020 se estimó que fueron generados 2.24 billones
-            de toneladas de desechos, lo que equivaldría a unos 0,79 kg por persona
-            por día. De esta cantidad masiva de residuos, solo se recicla un 13%.
-            Todavía tenemos mucho que hacer para mejorar estas cifras, tanto
-            empresas como individuos debemos ser responsables con los residuos que
-            generamos.
-        </p>
+       <p class="textoparrafo">En todo el mundo, la cantidad de los desechos que se generan está aumentando. En el año 2020 se estimó que fueron generados 2.24 billones de toneladas de desechos, lo que equivaldría a unos 0,79 kg por persona por día. De esta cantidad masiva de residuos, solo se recicla un 13%. Todavía tenemos mucho que hacer para mejorar estas cifras, tanto empresas como individuos debemos ser responsables con los residuos que generamos.</p>
 
         <p class="textoparrafo">
             En esta página encontrarán información útil para las personas que les
@@ -113,13 +117,9 @@
     <footer>
         <div>
             <p>Desarrollo Web Frontend | Ingenias 2022 | Medioambiente 1</p>
-            <p>
-                Rocío Albariño, Agustina Campot, Celeste Sofía Demaría, Katherina
-                Impa, Casandra Ledesma, Soledad Ochoa y Amparo Vicente.
-            </p>
+            <p>Rocío Albariño, Agustina Campot, Celeste Sofía Demaría, Katherina Impa, Casandra Ledesma, Soledad Ochoa y Amparo Vicente.</p>
         </div>
     </footer>
-    <script src="js/main.js"></script>
 </body>
 
 </html>
