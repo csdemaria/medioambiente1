@@ -64,7 +64,19 @@
 
         <h2 class="subtitulos">Contacto</h2>
 
-        <div id="form_sample"></div>
+       <form action="" id="formContacto">
+        <fieldset>
+            <legend>Escríbenos</legend>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea name="message" style="width:200px; height:200px;"></textarea><br><br>
+            <input type="submit" onclick="alert('Tu mensaje ha sido enviado')" value="Enviar">
+        </fieldset>
+        
+       </form>
         
     </main>
 
