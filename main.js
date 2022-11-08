@@ -11,30 +11,21 @@ class Persona{
 
 //Bienvenida
 
-let nombre = prompt("Ingrese su nombre.");
+function saludar() {
+    let nombre = localStorage.getItem('nombre');
+    if(!nombre){
+        nombre = prompt("Ingrese su nombre.");
+      localStorage.setItem('nombre', nombre);
+    }
 
-let saludo = "Bienvenido " + nombre + " a nuestro sitio.";
+    persona1 = new Persona(nombre)
 
-alert(saludo);
+    document.getElementById("personaNueva").innerHTML = persona1.toString()
 
-let localidad = prompt("En que provincia vivis?");
+  }
+  
+  saludar();
 
-// Pregunta inicial
-
-let preguntainicial = prompt("Te interesa el reciclaje?");
-
-let afirmacion = "si";
-
-if(preguntainicial == afirmacion){
-    //devuelve true
-    alert("Genial! Esperemos que disfrutes el contenido de nuestra página.")
-} else {
-    //devuelve false
-    alert("Tal vez leyendo la información en esta página despierte tu interés por el reciclaje.")
-}
-persona1 = new Persona(nombre,localidad)
-
-document.getElementById("personaNueva").innerHTML = persona1.toString()
 
 //Dark Mode - Light Mode
 
